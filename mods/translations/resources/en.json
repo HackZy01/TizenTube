@@ -99,8 +99,16 @@
                     "afrPauseDuration": {
                         "title": "Auto Frame Rate Pause Duration",
                         "subtitle": "Set the duration (in seconds) to pause video playback when adjusting frame rate"
-                    }
+                    },
+                    "codecAny": "Any",
+                    "qualityAuto": "Auto"
                 }
+            },
+            "time": {
+                "second": "{{count}} second",
+                "seconds": "{{count}} seconds",
+                "minute": "{{count}} minute",
+                "minutes": "{{count}} minutes"
             },
             "uiSettings": {
                 "title": "User Interface Settings",
@@ -138,6 +146,22 @@
                     "launchToOnStartup": {
                         "title": "Launch To on Startup",
                         "subtitle": "Choose the default page TizenTube opens to on startup"
+                    },
+                    "categories": {
+                        "search": "Search",
+                        "home": "Home",
+                        "sports": "Sports",
+                        "news": "News",
+                        "music": "Music",
+                        "podcasts": "Podcasts",
+                        "moviesAndTv": "Movies & TV",
+                        "live": "Live",
+                        "gaming": "Gaming",
+                        "subscriptions": "Subscriptions",
+                        "library": "Library",
+                        "more": "More",
+                        "shorts": "Shorts",
+                        "searchResults": "Search Results"
                     },
                     "sortSubscriptionsByAlphabet": "Sort Subscriptions Alphabetically",
                     "disableChannelsOnSidebar": "Disable Channels on Sidebar",
@@ -202,5 +226,21 @@
             "skip": "Skip {{segment}}",
             "skipToHighlight": "Skip to highlight"
         }
+    },
+    "player": {
+        "playbackSpeed": {
+            "title": "Playback Speed",
+            "button": "Speed Controls"
+        },
+        "miniPlayer": "Mini Player",
+        "pictureInPicture": "Picture in Picture",
+        "previous": "Previous",
+        "next": "Next",
+        "withTizenTube": "with TizenTube"
+    },
+    "toasts": {
+        "downloadingUpdate": "Downloading update, please wait...",
+        "videoAddedToQueue": "Video added to queue.",
+        "videoQueueCleared": "Video queue cleared."
     }
 }
