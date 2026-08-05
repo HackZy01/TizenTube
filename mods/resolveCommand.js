@@ -195,7 +195,7 @@ function customAction(action, parameters) {
             break;
         case 'UPDATE_DOWNLOAD':
             window.h5vcc.tizentube.InstallAppFromURL(parameters);
-            showToast('TizenTube Update', t('toasts.downloadingUpdate'));
+            showToast(t('settings.options.updater.downloading.title'), t('settings.options.updater.downloading.subtitle'));
             break;
         case 'SET_PLAYER_SPEED':
             const speed = Number(parameters);

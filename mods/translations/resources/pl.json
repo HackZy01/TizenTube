@@ -183,6 +183,31 @@
                 "options": {
                     "checkForUpdates": "Sprawdź dostępność aktualizacji",
                     "checkForUpdatesOnStartup": "Sprawdź aktualizacje przy uruchomieniu"
+                },
+                "updateAvailable": {
+					"title": "Dostępna aktualizacja",
+                    "subtitle": "Nowa wersja TizenTube Cobalt jest dostępna: {{latestVersion}}, zainstalowana: {{currentVersion}}"
+                },
+                "releaseDate": "Wydana: {{date}}",
+                "updateNow": {
+                    "title": "Aktualizuj teraz",
+                    "subtitle": "Naciśnij, aby pobrać najnowszą wersję"
+                },
+                "remindLater": {
+                    "title": "Przypomnij mi później",
+                    "subtitle": "Sprawdź dostępność aktualizacji później"
+                },
+                "upToDate": {
+                    "title": "TizenTube jest aktualne",
+                    "subtitle": "Używasz już najnowszej wersji ({{version}}) TizenTube Cobalt."
+                },
+                "checkFailed": {
+                    "title": "TizenTube update check failed",
+                    "subtitle": "Could not check for updates." 
+                },
+                "downloading": {
+                    "title": "Aktualizacja TizenTube",
+                    "subtitle": "Pobieranie aktualizacji, proszę czekać..."
                 }
             }
         },
@@ -239,7 +264,6 @@
         "withTizenTube": "Za pomocą TizenTube"
     },
     "toasts": {
-        "downloadingUpdate": "Pobieranie aktualizacji, proszę czekać...",
         "videoAddedToQueue": "Dodano film do kolejki",
         "videoQueueCleared": "Kolejka została wyczyszczona."
     }
